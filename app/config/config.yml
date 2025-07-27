@@ -1,0 +1,11 @@
+# config.yml
+development:
+  SECRET_KEY: "1e8b3a5d-ac51-4d7c-9497-dca131570fc9"
+  # Query Format : mysql+pymysql://uname:pwd@host/db_name
+  SQLALCHEMY_DATABASE_URI: "mysql+pymysql://root:root@localhost/mbl_store_db"
+  SQLALCHEMY_TRACK_MODIFICATIONS: False
+
+production:
+  SECRET_KEY: "5905f925-95fd-43d2-87fe-2e49291efb9e"
+  SQLALCHEMY_DATABASE_URI: "mysql+pymysql://your_mysql_username:your_mysql_password@localhost/flask_auth_db"
+  SQLALCHEMY_TRACK_MODIFICATIONS: False
